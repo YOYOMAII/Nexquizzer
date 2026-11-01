@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: NexQuizzer app and account support
+    url: mailto:support@nexquizzer.com
+    about: Get help using the platform through the existing support email.
+  - name: Report a security vulnerability privately
+    url: https://github.com/YOYOMAII/Nexquizzer/blob/main/SECURITY.md
+    about: Follow the private reporting instructions in the security policy.

@@ -1,0 +1,36 @@
+name: Public information correction
+description: Report an incorrect statement or broken link in this repository.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for the public information in the NexQuizzer repository.
+        For app or account support, email [support@nexquizzer.com](mailto:support@nexquizzer.com).
+        Report security vulnerabilities privately to [yoyo@nexquizzer.com](mailto:yoyo@nexquizzer.com), as described in [SECURITY.md](https://github.com/YOYOMAII/Nexquizzer/blob/main/SECURITY.md).
+  - type: input
+    id: location
+    attributes:
+      label: Affected file or link
+      description: Identify the heading, statement, or link in this repository.
+      placeholder: README.md — Getting Started
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is incorrect?
+      description: Quote the statement or explain what happens when you follow the link.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Expected information
+      description: Explain the correction or expected link destination. Say if you need help confirming it.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Supporting context
+      description: Include public references or other details that would help verify the report.
